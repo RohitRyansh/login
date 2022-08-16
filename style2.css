@@ -1,0 +1,80 @@
+body{
+    background-color: aliceblue;
+}
+h1{
+    color: blue;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0;
+}
+form{
+    height: 80vh;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;    
+}
+input{
+    height: 40px;
+    width: 350px;
+    margin: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+a
+{
+text-decoration: none;
+}
+.name{
+    display: flex;
+    text-align: center;
+}
+.name input{
+    height: 40px;
+    width: 160px;
+}
+.signup
+{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dob1
+{
+    margin-bottom: 1px;
+    padding-right: 270px;
+    padding-bottom: 10px;
+}
+.dob select
+{
+    height: 35px;
+    width: 110px;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-left: 8px;
+}
+.gender{
+    display: flex   ;
+
+}
+.gender input
+{
+height: 30px;
+width: 100px;
+}
+button{
+    margin-top: 10px;
+    height: 5vh;
+    width: 200px;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(36, 219, 36);
+    margin-bottom: 10px;
+}
